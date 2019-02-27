@@ -231,6 +231,7 @@ html, body {
     font-size: 26px;
     text-align: center;
     font-weight: bold;
+    line-height: 55px;
     font-family: 'Lora', serif;
 }
 
@@ -434,7 +435,7 @@ html, body {
   =================================*/
 #team {
     background: #eff7fa;
-    padding: 100px 0;
+    padding: 100px 80px;
 }
 
 .doc-team-heading {
@@ -637,6 +638,31 @@ html, body {
     border-radius: 50%;
     padding: 8px;
 }
+/*================================= 
+     Bottom NavBar Section Styling
+  =================================*/
+#footers ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footers li {
+    float: left;
+}
+
+    #footers li a {
+        display: block;
+        color: #d8deff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
 
 /*================================= 
           Read More Styling
@@ -1036,26 +1062,1370 @@ button:focus {
 }
 
 @media screen and (max-width: 1024px) {
+    .banner-text {
+        font-size: 45px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -45%
+    }
+
+    .banner-bg-color {
+        margin-top: 5%;
+        padding: 20px 0;
+    }
+
+    /*.btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }*/
+
+    .icon-setting {
+        bottom: 37%;
+        left: 56%;
+    }
+
+    .mt-100 {
+        margin-top: 70px;
+    }
+
+    .arrow-bg-color {
+        top: 112px;
+        left: 47%;
+        width: 60px;
+        height: 50px;
+        padding: 10px 2px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        height: 482px;
+        width: 501px;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .footer-text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 0px;
+    }
+
+    #contact-us #flat-icons [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        margin-left: 0;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -19%
+    }
+
+    .banner-bg-color {
+        margin-top: 6%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 41%;
+        left: 44%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 59px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 24px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 25px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 28px;
+    }
+
+    .counter-text {
+        font-size: 16px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: 16px;
+    }
+    /*.location-text {
+        font-size: 15px;
+    }
+
+    #contact-us #flat-icons [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        margin-left: 0px;
+        padding: 6px;
+    }
+
+    .mail-text {
+        font-size: 16px;
+    }
+
+    .phone-number-text {
+        font-size: 13px;
+    }*/
 }
 
 @media screen and (max-width: 768px) {
+    #team {
+        padding: 100px 0;
+    }
+
+    .banner-text {
+        font-size: 32px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -19%
+    }
+
+    .banner-bg-color {
+        margin-top: 10%;
+        padding: 20px 0;
+    }
+
+    /*.btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }*/
+
+    .icon-setting {
+        bottom: 40%;
+        left: 44%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 60px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 10px 2px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 22px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 30px;
+    }
+
+    .counter-text {
+        font-size: 16px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 414px) {
+    #team {
+        padding: 100px 0;
+    }
+
+    .banner-text {
+        font-size: 27px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -35%
+    }
+
+    .banner-bg-color {
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 34%;
+        left: 36%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 18px;
+        left: 44%;
+        width: 60px;
+        height: 35px;
+        padding: 2px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 411px) {
+    #team {
+        padding: 100px 0;
+    }
+
+    .banner-text {
+        font-size: 27px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -35%
+    }
+
+    .banner-bg-color {
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 34%;
+        left: 36%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 18px;
+        left: 44%;
+        width: 60px;
+        height: 35px;
+        padding: 2px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 375px) {
+    #team {
+        padding: 100px 0;
+    }
+
+    .mt--37 {
+        margin-top: -38%
+    }
+
+    .banner-text {
+        font-size: 24px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .banner-bg-color {
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 30%;
+        left: 34%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 18px;
+        left: 44%;
+        width: 60px;
+        height: 35px;
+        padding: 2px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    .mt--37 {
+        margin-top: -40%
+    }
+
     .banner-text {
+        font-size: 24px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .banner-bg-color {
+        margin-top: 20%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 30%;
+        left: 34%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 18px;
+        left: 44%;
+        width: 60px;
+        height: 35px;
+        padding: 2px 0px;
+    }
+
+    .good-text {
         font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 18px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 18px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    #team {
+        padding: 100px 0;
+    }
+
+    .media-width-video-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+}
+
+
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width: 1500px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -19%
+    }
+
+    .banner-bg-color {
+        margin-top: 6%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 41%;
+        left: 44%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 59px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 24px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 25px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 28px;
+    }
+
+    .counter-text {
+        font-size: 16px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+
+    .footer-text {
+        text-align: center;
+        font-size: 16px;
+    }
+    /*.location-text {
+        font-size: 15px;
+    }
+
+    #contact-us #flat-icons [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        margin-left: 0px;
+        padding: 6px;
+    }
+
+    .mail-text {
+        font-size: 16px;
+    }
+
+    .phone-number-text {
+        font-size: 13px;
+    }*/
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -26%
+    }
+
+    .banner-bg-color {
+        margin-top: 9%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 39%;
+        left: 43%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 59px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -26%
+    }
+
+    .banner-bg-color {
+        margin-top: 9%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 39%;
+        left: 43%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 59px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
+    }
+
+    .mt--37 {
+        margin-top: -26%
+    }
+
+    .banner-bg-color {
+        margin-top: 9%;
+        padding: 20px 0;
+    }
+
+    .btn-contact {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .icon-setting {
+        bottom: 39%;
+        left: 43%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
+    .arrow-bg-color {
+        top: 59px;
+        left: 46%;
+        width: 60px;
+        height: 50px;
+        padding: 11px 0px;
+    }
+
+    .good-text {
+        font-size: 25px;
+    }
+
+    .good-heading {
+        font-size: 20px;
+    }
+
+    .good-desc {
+        font-size: 16px;
+    }
+
+    .top-main-section-heading {
+        font-size: 23px;
+    }
+
+    .service-heading {
+        font-size: 20px;
+    }
+
+    .happend-text-heading {
+        font-size: 22px;
+    }
+
+    .happen-desc {
+        font-size: 16px;
+    }
+
+    .media-width-video-img {
+        width: 100%;
+    }
+
+    .fact-text {
+        font-size: 26px;
+    }
+
+    .facts-pera-text {
+        font-size: 16px;
+    }
+
+    .fact-heading-text {
+        font-size: 16px;
+    }
+
+    .facts-desc {
+        font-size: 14px;
+    }
+
+    .counter-number {
+        font-size: 40px;
+    }
+
+    .counter-text {
+        font-size: 22px;
+    }
+
+    .doc-name {
+        font-size: 20px;
+    }
+
+    .card-pera-text {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        padding: 40px 0;
+    }
+
+    .media-footer-mt {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+    .banner-text {
+        font-size: 37px;
+    }
+
+    #HOME {
+        padding: 20% 0;
     }
 
     .banner-bg-color {
@@ -1070,12 +2440,25 @@ button:focus {
         line-height: 28px;
     }
 
+    .icon-setting {
+        bottom: 36%;
+        left: 43%;
+    }
+
+    .mt-100 {
+        margin-top: 50px;
+    }
+
     .arrow-bg-color {
-        top: 12px;
-        left: 44%;
+        top: 44px;
+        left: 45%;
         width: 60px;
         height: 35px;
         padding: 2px 0px;
+    }
+
+    .mt--37 {
+        margin-top: -25.5%;
     }
 
     .good-text {
@@ -1149,31 +2532,4 @@ button:focus {
     .media-footer-mt {
         margin-top: 40px;
     }
-}
-
-
-
-/*==================== Media Query For Land Scape Mode =====================*/
-@media screen and (max-width: 1500px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 823px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 740px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 736px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 731px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 667px) and (orientation: landscape) {
-}
-
-@media screen and (max-width: 640px) and (orientation: landscape) {
 }
