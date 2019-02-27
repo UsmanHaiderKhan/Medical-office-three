@@ -89,8 +89,8 @@ $(function () {
             },
             800: {
                 items: 1,
-                dots: false,
-                nav: true
+                dots: true,
+                nav: false
             },
             1000: {
                 items: 3,
