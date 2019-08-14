@@ -1,5 +1,5 @@
 ﻿
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -13,7 +13,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
           Navbar Styling
   =================================*/
 .banner-content {
@@ -22,7 +22,7 @@ html, body {
 
 .banner-text {
     font-size: 58px;
-    color: #e6e6e6;
+    color: #ffffff;
     letter-spacing: 2px;
     text-shadow: 3px 3px 3px #153141;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ html, body {
     }
 
 
-/*================================= 
+/*=================================
       Best Section Styling
   =================================*/
 .good-text {
@@ -218,12 +218,13 @@ html, body {
 .good-text-no {
     color: #eaeded;
     font-size: 17rem;
+    font-family: 'Oswald', sans-serif;
 }
 
 .mt--37 {
     margin-top: -37.5%;
 }
-/*================================= 
+/*=================================
      Experience Section Styling
   =================================*/
 .top-main-section-heading {
@@ -243,6 +244,34 @@ html, body {
         color: #ed1c43;
     }
 
+.img-v-line {
+    position: relative;
+}
+
+    .img-v-line::after {
+        content: '';
+        position: absolute;
+        bottom: 19px;
+        width: 1px;
+        height: 79%;
+        left: 50px;
+        background: #f2f2f2;
+    }
+
+.img-v-lines {
+    position: relative;
+}
+
+    .img-v-lines::after {
+        content: '';
+        position: absolute;
+        bottom: 19px;
+        width: 1px;
+        height: 79%;
+        left: 67px;
+        background: #f2f2f2;
+    }
+
 .service-heading {
     font-size: 22px;
     color: rgb(49, 49, 49);
@@ -259,7 +288,7 @@ html, body {
 
 
 
-/*================================= 
+/*=================================
       Happend Section Styling
   =================================*/
 
@@ -352,9 +381,14 @@ html, body {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
 }
-/*================================= 
+/*=================================
       fact Section Styling
   =================================*/
+#clinic-facts {
+    padding: 120px 0;
+    background: #f8f8f8;
+}
+
 .fact-text {
     color: #11343a;
     font-size: 35px;
@@ -407,7 +441,7 @@ html, body {
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 }
-/*================================= 
+/*=================================
          Counter Section Styling
   =================================*/
 .counter-bg-banner {
@@ -430,7 +464,7 @@ html, body {
     font-weight: bold;
     font-family: 'Lora', serif;
 }
-/*================================= 
+/*=================================
      Team section Styling
   =================================*/
 #team {
@@ -517,7 +551,7 @@ html, body {
     padding: 8px;
 }
 
-/*================================= 
+/*=================================
     BackGround Section Styling
   =================================*/
 
@@ -638,7 +672,7 @@ html, body {
     border-radius: 50%;
     padding: 8px;
 }
-/*================================= 
+/*=================================
      Bottom NavBar Section Styling
   =================================*/
 #footers ul {
@@ -664,7 +698,7 @@ html, body {
 
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
@@ -1191,6 +1225,10 @@ button:focus {
         font-size: 37px;
     }
 
+    .img-v-lines::after {
+        display: none;
+    }
+
     #HOME {
         padding: 20% 0;
     }
@@ -1322,7 +1360,7 @@ button:focus {
     }*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     #team {
         padding: 100px 0;
     }
@@ -1446,7 +1484,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 415px) {
     #team {
         padding: 100px 0;
     }
@@ -1935,9 +1973,13 @@ button:focus {
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 823px) and (orientation: landscape) {
+@media screen and (max-width: 824px) and (orientation: landscape) {
     .banner-text {
         font-size: 37px;
+    }
+
+    .img-v-lines::after {
+        display: none;
     }
 
     #HOME {
@@ -2301,7 +2343,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 731px) and (orientation: landscape) {
+@media screen and (max-width: 732px) and (orientation: landscape) {
     .banner-text {
         font-size: 37px;
     }
@@ -2419,7 +2461,7 @@ button:focus {
 @media screen and (max-width: 667px) and (orientation: landscape) {
 }
 
-@media screen and (max-width: 640px) and (orientation: landscape) {
+@media screen and (max-width: 641px) and (orientation: landscape) {
     .banner-text {
         font-size: 37px;
     }
